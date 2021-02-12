@@ -1,7 +1,9 @@
 var buffer1 = new Buffer(100);
-var slice = new Buffer(20);
-var targetstart = 0;
-    sourcestart = 40;
-    sourseend = 60;
-buffer1.copy(slice, targetstart, sourcestart,sourseend);
-console.log(buffer1);
+for(var i = 0; i < buffer1.length; i ++) {
+ buffer[i] = i;
+ }
+ console.log(buffer);
+
+ var buffer2 = buffer.slice(40, 60);
+
+ console.log(buffer2);
